@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0
+}
+
+::-moz-selection {
+  color: #000;
+  background: #d3d3d3
+}
+
+::selection {
+  color: #000;
+  background: #d3d3d3
+}
+
+body, html {
+  height: 100%
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+}
+
+a {
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+a:focus, a:hover {
+  text-decoration: none
+}
+
+h1, h2 {
+  font-style: normal;
+  text-transform: none;
+  letter-spacing: 3px;
+  font-weight: 300
+}
+
+pre {
+  font-size: 18px;
+  padding: 1.5em 1em;
+  border-radius: 0;
+  border: none;
+  border: 1px solid #ccc;
+  border-left: 6px solid #ccc;
+  background: shade(white, 2%)
+}
+
+a {
+  text-decoration-line: none
+}
