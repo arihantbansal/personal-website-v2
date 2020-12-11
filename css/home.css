@@ -1,16 +1,59 @@
+* {
+  margin: 0;
+  padding: 0
+}
+
+::-moz-selection {
+  color: #000;
+  background: #d3d3d3
+}
+
+::selection {
+  color: #000;
+  background: #d3d3d3
+}
+
+body, html {
+  height: 100%
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+}
+
+a {
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+a:focus, a:hover {
+  text-decoration: none
+}
+
+h1, h2 {
+  font-style: normal;
+  text-transform: none;
+  letter-spacing: 3px;
+  font-weight: 300
+}
+
+pre {
+  font-size: 18px;
+  padding: 1.5em 1em;
+  border-radius: 0;
+  border: none;
+  border: 1px solid #ccc;
+  border-left: 6px solid #ccc;
+  background: shade(white, 2%)
+}
+
+a {
+  text-decoration-line: none
+}
+
 .brand h1, .brand h2, {
   display: table;
   margin: 0 auto;
-}
-
-.visible {
-  visibility: visible !important;
-}
-
-@media screen and (max-width: 768px) {
-  .pushy {
-    font-size: 1.0em;
-  }
 }
 
 .brand {
@@ -95,50 +138,3 @@
 	color: black;
 	transition: 0.2s ease;
 }
-
-
-/*#particles-js{
-  width: 100%;
-  height: 100%;
-  background-color: #b61924;
-  background-image: url('');
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-}*/
-/*
-#parent {
-  height: 40px !important;
-  white-space: nowrap  !important;
-  overflow: hidden !important;
-  font-family: 'Source Code Pro', monospace !important;
-  font-size: 28px !important;
-  color: rgba(255,255,255,.70) !important;
-  position: relative !important;
-}
-
-#border {
-  border-bottom: solid 3px rgba(0,255,0,.75) !important;
-  position: absolute !important;
-  right: -7px !important;
-  width: 20px !important;
-}
-
-#parent {
-  animation: animated-text 2s steps(30,end) 1s 1 normal both !important;
-}
-
-#border {
-   animation: animated-cursor 600ms steps(30,end) infinite !important;
-}
-
-@keyframes animated-text{
-  from{width: 0 !important;}
-  to{width: 480px !important;}
-}
-
-@keyframes animated-cursor{
-  from{border-bottom-color: rgba(0,255,0,.75) !important;}
-  to{border-bottom-color: transparent !important;}
-}
-*/
