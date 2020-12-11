@@ -1,24 +1,25 @@
 * {
   margin: 0;
-  padding: 0
+  padding: 0;
 }
 
 ::-moz-selection {
   color: #000;
-  background: #d3d3d3
+  background: #d3d3d3;
 }
 
 ::selection {
   color: #000;
-  background: #d3d3d3
+  background: #d3d3d3;
 }
 
 body, html {
-  height: 100%
+  height: 100%;
 }
 
 body {
   font-family: "Roboto Mono", monospace;
+  overflow: hidden;
 }
 
 a {
@@ -27,14 +28,14 @@ a {
 }
 
 a:focus, a:hover {
-  text-decoration: none
+  text-decoration: none;
 }
 
 h1, h2 {
   font-style: normal;
   text-transform: none;
   letter-spacing: 3px;
-  font-weight: 300
+  font-weight: 300;
 }
 
 pre {
@@ -44,11 +45,11 @@ pre {
   border: none;
   border: 1px solid #ccc;
   border-left: 6px solid #ccc;
-  background: shade(white, 2%)
+  background: shade(white, 2%);
 }
 
 a {
-  text-decoration-line: none
+  text-decoration-line: none;
 }
 
 .brand h1, .brand h2, {
@@ -103,38 +104,38 @@ a {
 }
 
 .box {
-	margin: 1em 2.5em;
-	display: inline-block;
-	height: 3.3em;
-	width: 3.3em;
-	line-height: 3.3em;
-	color: white;
+  margin: 1em 2.5em;
+  display: inline-block;
+  height: 3.3em;
+  width: 3.3em;
+  line-height: 3.3em;
+  color: white;
 }
 
 .dix {
-	text-align: center;
-	vertical-align: middle;
-	font-size: 2em;
-	color: white;
-	height: 3em;
-	width: 3em;
-	line-height: 3em;
-	display: inline-block;
-	border-radius: 20%;
-	border-width: 0.03em;
-	transition: 0.3s ease;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 2em;
+  color: white;
+  height: 3em;
+  width: 3em;
+  line-height: 3em;
+  display: inline-block;
+  border-radius: 20%;
+  border-width: 0.03em;
+  transition: 0.3s ease;
 }
 
 .box a {
-	text-decoration: none;
-	color: inherit;
-}
+  text-decoration: none;
+  color: inherit;
+}0
 
 .dix:hover {
-	height: 3em;
-	width: 3em;
-	line-height: 3em;
-	background-color: white;
-	color: black;
-	transition: 0.2s ease;
+  height: 3em;
+  width: 3em;
+  line-height: 3em;
+  background-color: white;
+  color: black;
+  transition: 0.2s ease;
 }
