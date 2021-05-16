@@ -1,2 +1,3 @@
-# arihantbansal.github.io
- Personal Website v2
+# arihantbansal.github.io - Home
+
+Personal Website v2
